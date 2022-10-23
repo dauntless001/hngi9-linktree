@@ -4,3 +4,16 @@
     margin: 0px auto;
     padding: 10px 20px;
 }
+
+#slack{
+    display: hidden;
+}
+.profile__section{
+    align-items: center;
+    text-align: center;
+}
+
+.profile__img{
+    margin: 15px auto;
+
+}
