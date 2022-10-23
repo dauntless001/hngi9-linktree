@@ -37,13 +37,13 @@ const App = () => {
       </div>
       <hr className='footer__line'/>
       <div className='footer__section'>
-        <div>
+        <div className='footer__zuri'>
           <h3>Zuri <CircleIcon sx={{width :10, height: 10, color:'red'}}/> Internship</h3>
         </div>
         <div>
           <p style={{color: '#cdcdcd', fontSize: 14, textAlign : 'center'}}>HNG Internship 9 Frontend Task</p>
         </div>
-        <div style={{textAlign : 'right'}}>
+        <div className="footer__image">
           <img 
           src="https://i0.wp.com/ingressive.org/wp-content/uploads/2020/05/I4G-Logo-Color-Cropped.png?fit=2225%2C539&ssl=1"
           alt="Ingressive" style={{maxWidth : 130}}

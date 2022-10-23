@@ -75,12 +75,22 @@
     margin: 5px 0;
 }
 
+.footer__image{
+    text-align: right;
+}
+
 @media screen and (max-width:600px) {
     .profile__share{
         right: 0px;
     }
     .footer__section{
         display: block;
+        text-align: center;
+    }
+    .footer__image{
+        text-align: center;
+    }
+    .footer__zuri{
         text-align: center;
     }
 }
