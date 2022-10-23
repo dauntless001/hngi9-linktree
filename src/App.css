@@ -6,7 +6,7 @@
 }
 
 #slack{
-    display: hidden;
+    visibility: hidden;
 }
 .profile__section{
     align-items: center;
@@ -16,4 +16,12 @@
 .profile__img{
     margin: 15px auto;
 
+}
+.link__section{
+    width: 100%;
+    background-color: blue;
+}
+.link{
+    text-align: center;
+    background-color: red;
 }

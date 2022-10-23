@@ -11,7 +11,7 @@ const App = () => {
         className='profile__img'
         />
         <h3 id='twitter'>___waverider</h3>
-        <h3 id='slack'></h3>
+        <h3 id='slack'>Dauntless</h3>
       </div>
     </div>
   )
