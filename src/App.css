@@ -51,6 +51,9 @@
     font-weight: 600;
 }
 
+.link__subtext{
+    font-weight: 400;
+}
 .icon__section{
     text-align: center;
     margin: 10px 0;
