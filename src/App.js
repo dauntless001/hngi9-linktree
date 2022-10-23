@@ -31,7 +31,7 @@ const App = () => {
         <a href="https://books.zuri.team/design-rules" id='book__design'>Design Books</a>
       </div>
       <div className='icon__section'>
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" style={{maxWidth : 22}} className="brand__icon"/>
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" style={{maxWidth : 22}} className="brand__icon" alt='slack'/>
         <GitHubIcon />
       </div>
     </div>
