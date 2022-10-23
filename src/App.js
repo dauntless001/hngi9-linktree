@@ -3,6 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ReplyIcon from '@mui/icons-material/Reply';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import CircleIcon from '@mui/icons-material/Circle';
 
 const App = () => {
   const handleIcon = () => {
@@ -33,6 +34,21 @@ const App = () => {
       <div className='icon__section'>
         <img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" style={{maxWidth : 22}} className="brand__icon" alt='slack'/>
         <GitHubIcon />
+      </div>
+      <hr className='footer__line'/>
+      <div className='footer__section'>
+        <div>
+          <h3>Zuri <CircleIcon sx={{width :10, height: 10, color:'red'}}/> Internship</h3>
+        </div>
+        <div>
+          <p style={{color: '#cdcdcd', fontSize: 14, textAlign : 'center'}}>HNG Internship 9 Frontend Task</p>
+        </div>
+        <div style={{textAlign : 'right'}}>
+          <img 
+          src="https://i0.wp.com/ingressive.org/wp-content/uploads/2020/05/I4G-Logo-Color-Cropped.png?fit=2225%2C539&ssl=1"
+          alt="Ingressive" style={{maxWidth : 130}}
+          />
+        </div>
       </div>
     </div>
   )

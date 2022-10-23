@@ -2,7 +2,7 @@
     max-width: 800px;
     height: auto;
     margin: 0px auto;
-    padding: 10px 20px;
+    padding: 10px 20px 0px 20px;
 }
 
 #slack{
@@ -42,12 +42,13 @@
     text-align: center;
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 15px 10px;
     background-color: #eee;
     color: black;
     border-radius: 5px;
     cursor: pointer;
     margin: 15px 0;
+    font-weight: 600;
 }
 
 .icon__section{
@@ -59,8 +60,27 @@
     margin: 0 20px;
 }
 
+.footer__line{
+    border: 1px dotted #eee;
+}
+
+.footer__section{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0px;
+}
+
+.footer__section div{
+    margin: 5px 0;
+}
+
 @media screen and (max-width:600px) {
     .profile__share{
         right: 0px;
+    }
+    .footer__section{
+        display: block;
+        text-align: center;
     }
 }
