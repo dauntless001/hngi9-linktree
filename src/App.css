@@ -19,9 +19,16 @@
 }
 .link__section{
     width: 100%;
-    background-color: blue;
 }
-.link{
+
+.link__section > a{
     text-align: center;
-    background-color: red;
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    background-color: #eee;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
 }

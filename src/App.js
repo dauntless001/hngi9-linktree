@@ -13,6 +13,15 @@ const App = () => {
         <h3 id='twitter'>___waverider</h3>
         <h3 id='slack'>Dauntless</h3>
       </div>
+      <div className='link__section'>
+        <a href="https://twitter.com/___waverider" id='btn__twitter'
+        >Twitter Link</a>
+        <a href="https://training.zuri.team/" id='btn__zuri'>Zuri Team</a>
+        <a href="https://books.zuri.team/" id='books'>Zuri Books</a>
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=dauntless" id='book__python'>Python Books</a>
+        <a href="https://background.zuri.team" id='pitch'>Background Check for Coders</a>
+        <a href="https://books.zuri.team/design-rules" id='book__design'>Design Books</a>
+      </div>
     </div>
   )
 }
