@@ -8,14 +8,31 @@
 #slack{
     visibility: hidden;
 }
+
 .profile__section{
     align-items: center;
     text-align: center;
+    position: relative;
 }
 
 .profile__img{
     margin: 15px auto;
+    
+}
+.profile__share{
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    width: auto;
+    transform: scaleX(-1);
+    border-radius: 50px;
+    border: 0.2px solid #eee;
+    align-items: center;
+    text-align: center;
+}
 
+.profile__share__icon{
+    margin: 5px 10px;
 }
 .link__section{
     width: 100%;
@@ -25,10 +42,25 @@
     text-align: center;
     display: block;
     text-decoration: none;
-    padding: 10px 0;
+    padding: 10px;
     background-color: #eee;
     color: black;
     border-radius: 5px;
     cursor: pointer;
     margin: 15px 0;
+}
+
+.icon__section{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.brand__icon{
+    margin: 0 20px;
+}
+
+@media screen and (max-width:600px) {
+    .profile__share{
+        right: 0px;
+    }
 }

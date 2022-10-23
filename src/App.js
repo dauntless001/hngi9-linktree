@@ -1,8 +1,13 @@
 import './App.css';
 import Avatar from '@mui/material/Avatar';
-
+import GitHubIcon from '@mui/icons-material/GitHub';
+import ReplyIcon from '@mui/icons-material/Reply';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 const App = () => {
+  const handleIcon = () => {
+    return window.innerWidth <= 760 ? <MoreHorizIcon className='profile__share__icon'/> : <ReplyIcon className='profile__share__icon'/>
+  }
   return (
     <div className='container'>
       <div className='profile__section'>
@@ -12,6 +17,9 @@ const App = () => {
         />
         <h3 id='twitter'>___waverider</h3>
         <h3 id='slack'>Dauntless</h3>
+        <div className='profile__share'>
+          {handleIcon()}
+        </div>
       </div>
       <div className='link__section'>
         <a href="https://twitter.com/___waverider" id='btn__twitter'
@@ -21,6 +29,10 @@ const App = () => {
         <a href="https://books.zuri.team/python-for-beginners?ref_id=dauntless" id='book__python'>Python Books</a>
         <a href="https://background.zuri.team" id='pitch'>Background Check for Coders</a>
         <a href="https://books.zuri.team/design-rules" id='book__design'>Design Books</a>
+      </div>
+      <div className='icon__section'>
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" style={{maxWidth : 22}} className="brand__icon"/>
+        <GitHubIcon />
       </div>
     </div>
   )
