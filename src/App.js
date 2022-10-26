@@ -32,15 +32,9 @@ const App = () => {
         <br />
         <span className="link__subtext">Discover the best books on design and coding</span>
         </a>
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=dauntless" id='book__python'>Python Books</a>
-        <a href="https://background.zuri.team" id='pitch'>Background Check for Coders
-        <br />
-        <span className="link__subtext">Zuri aims to be the genuine source that helps you verify your developers</span>
-        </a>
-        <a href="https://books.zuri.team/design-rules" id='book__design'>Design Books
-        <br />
-        <span className="link__subtext">Learn the 38 laws of design for to boost your creativity</span>
-        </a>
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=Oluwaseun%20Matanmi" id='book__python'>Python Books</a>
+        <a href="https://background.zuri.team" id='pitch'>Background Check for Coders</a>
+        <a href="https://books.zuri.team/design-rules" id='book__design'>Design Books</a>
       </div>
       <div className='icon__section'>
         <img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" style={{maxWidth : 22}} className="brand__icon" alt='slack'/>
